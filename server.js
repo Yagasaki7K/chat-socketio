@@ -10,6 +10,10 @@ app.set('views', path.join(__dirname, 'public'));
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
+app.use('/chat', (req, res) => {
+    res.render('chat.html');
+});
+
 app.use('/', (req, res) => {
     res.render('index.html');
 });
