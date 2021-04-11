@@ -1,32 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
 html, body {
     height: 100%;
     background: #0D1418;
-  }
+    font-family: 'Nunito', sans-serif;
+}
   
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   
-  #chat {
+#chat {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 2vw;
-  }
+}
   
-  input {
+input {
     width: 60vw;
     border: 1px solid #ddd;
     height: 5vw;
     padding: 0 2vw;
     font-size: 1.5vw;
-  }
+}
   
-  button {
+button {
     width: 60vw;
     height: 5vw;
     font-size: 1.5vw;
@@ -37,9 +40,9 @@ html, body {
     color: #FFF;
     margin-top: 1vw;
     border: none;
-  }
+}
   
-  .messages {
+.messages {
     width: 60vw;
     height: 40vw;
     margin: 2vw 0;
@@ -47,4 +50,13 @@ html, body {
     padding: 2vw;
     background: #0D1418;
     color: #cedcdd;
-  }
+}
+
+p {
+    margin-top: 10px;
+    color: #cedcdd;
+}
+
+p a {
+    color: #cedcdd
+}
